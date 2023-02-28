@@ -2,6 +2,11 @@
   width: device-width ;
   zoom: 1.0 ;
 }
+.modal {
+  width: 50vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+}
 
 *{
     margin: 0;
