@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://c1.wallpaperflare.com/preview/7/270/334/art-painting-mural-michelangelo-il-creazione-d-adamo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+    color: #808080;
+}
+
+.hero h3{
+    margin-top: 20%;
+    font-weight: 400;
+    font-size: 80px;
+    color: #faf9f6 ;
+    font-style: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.hero h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+.hero p{
+    margin: 10px 0 50px;
+    text-align: center;
+    color: #fff;
+}
+form{
+    background: #000000;
+    display: inline-block;
+    width: fit-content;
+    
+}
+
+body {
+    text-align: center;
+    
+}
+form input{
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    height: 70px;
+    width: 400px;
+    font-size: 16px;
+
+}
+form button{
+    background: #000000;
+    border:none;
+    outline: none;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+span{
+    color: #000000;
+    margin-top: 10px;
+    display: block;
+}
+
