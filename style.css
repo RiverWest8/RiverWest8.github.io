@@ -1,19 +1,9 @@
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-.modal {
-  width: 50vw;
-  height: 50vh;
-  height: calc(var(--vh, 1vh) * 50);
-}
 
 *{
     margin: 0;
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-
 }
 
 .hero{
@@ -26,7 +16,7 @@
     color: #808080;
 }
 
-.hero h3{
+.hero h1{
     margin-top: 20%;
     font-weight: 400;
     font-size: 80px;
@@ -34,25 +24,16 @@
     font-style: bold;
     font-family: Helvetica, Arial, sans-serif;
 }
-.hero h1{
-    margin-top: 30px;
-    font-size: 50px;
-}
-.hero p{
-    margin: 10px 0 50px;
-    text-align: center;
-    color: #fff;
-}
+
+
 form{
     background: #000000;
     display: inline-block;
-    width: fit-content;
-    
+    width: fit-content;    
 }
 
 body {
-    text-align: center;
-    
+    text-align: center;   
 }
 form input{
     border: 0;
@@ -61,7 +42,6 @@ form input{
     height: 70px;
     width: 400px;
     font-size: 16px;
-
 }
 form button{
     background: #000000;
