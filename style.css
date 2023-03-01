@@ -17,12 +17,16 @@
 }
 
 .hero h1{
-    margin-top: 20%;
     font-weight: 400;
     font-size: 80px;
     color: #faf9f6 ;
     font-style: bold;
     font-family: Helvetica, Arial, sans-serif;
+      margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
