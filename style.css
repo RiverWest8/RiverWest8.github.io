@@ -1,64 +1,71 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-
-.hero{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://c1.wallpaperflare.com/preview/7/270/334/art-painting-mural-michelangelo-il-creazione-d-adamo.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 10px 10%;
-    color: #808080;
-}
-
-.hero h1{
-    font-weight: 400;
-    font-size: 80px;
-    color: #faf9f6 ;
-    font-style: bold;
-    font-family: Helvetica, Arial, sans-serif;
-      margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-form{
-    background: #000000;
-    display: inline-block;
-    width: fit-content;    
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    text-align: center;   
-}
-form input{
-    border: 0;
-    outline: none;
-    padding: 10px 20px;
-    height: 70px;
-    width: 400px;
-    font-size: 16px;
-}
-form button{
-    background: #000000;
-    border:none;
-    outline: none;
-    height: 70px;
-    width: 70px;
-    cursor: pointer;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://c1.wallpaperflare.com/preview/7/270/334/art-painting-mural-michelangelo-il-creazione-d-adamo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-span{
-    color: #000000;
-    margin-top: 10px;
-    display: block;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
+.main h1 {
+  font-weight: 400;
+  font-size: 80px;
+  color: #faf9f6;
+  font-style: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+}
+
+form input {
+  border: 0;
+  outline: none;
+  padding: 5px 10px;
+  width: 400px;
+  height: inherit;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+form button {
+  background: #faf9f6;
+  border: none;
+  outline: none;
+  height: inherit;
+  width: 50px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #000000;
+}
+
+span {
+  color: #faf9f6;
+  margin-top: 20px;
+  visibility: hidden;
+}
